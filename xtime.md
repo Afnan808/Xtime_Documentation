@@ -248,3 +248,104 @@ The app aims to help users improve time management and boost productivity by int
 The Xtime app interface displays an organized list of daily tasks with circles to mark completed tasks with a checkmark and a set time for each task. This simple design allows the user to manage their day easily and motivates them to complete tasks on time.
 
 ![Xtime App Interface](xtime.png)
+
+# Use Case Details for Xtime Application
+
+## Use Case 1: User Registration
+
+- **Actor:** New User  
+- **Precondition:** User must have internet access.  
+- **Postcondition:** User account is created and the user is logged into the application.
+
+### Main Flow:
+1. User opens the Xtime application.
+2. User clicks on the “Register” button.
+3. User enters required information (name, email, password).
+4. User agrees to terms and conditions.
+5. User clicks the “Submit” button.
+6. The system validates the input and creates a new user account.
+7. User receives a confirmation email.
+8. User is redirected to the login page.
+
+### Alternative Flow:
+- If the email is already in use, the system displays an error message and prompts the user to use a different email.
+
+---
+
+## Use Case 2: User Login
+
+- **Actor:** Registered User  
+- **Precondition:** User must have an account.  
+- **Postcondition:** User is logged into the application.
+
+### Main Flow:
+1. User opens the Xtime application.
+2. User clicks on the “Login” button.
+3. User enters their email and password.
+4. User clicks the “Login” button.
+5. The system validates the credentials.
+6. If valid, the user is directed to the dashboard.
+7. If invalid, the system displays an error message.
+
+---
+
+## Use Case 3: Create a Task
+
+- **Actor:** Logged-in User  
+- **Precondition:** User must be logged into the application.  
+- **Postcondition:** A new task is created and stored in the database.
+
+### Main Flow:
+1. User navigates to the “Tasks” section.
+2. User clicks the “Add Task” button.
+3. User enters the task details (title, description, due date, and time).
+4. User clicks the “Save” button.
+5. The system saves the new task to the database.
+6. The task appears in the user’s task list.
+
+---
+
+## Use Case 4: Mark a Task as Complete
+
+- **Actor:** Logged-in User  
+- **Precondition:** User must have tasks in their task list.  
+- **Postcondition:** The task is marked as complete in the system.
+
+### Main Flow:
+1. User navigates to the “Tasks” section.
+2. User views the list of tasks.
+3. User selects a task to mark as complete.
+4. User clicks the “Complete” button next to the task.
+5. The system updates the task status to “Completed”.
+6. The completed task is visually marked (e.g., with a checkmark).
+
+---
+
+## Use Case 5: View Task Progress
+
+- **Actor:** Logged-in User  
+- **Precondition:** User must have tasks in their task list.  
+- **Postcondition:** User views their task completion progress.
+
+### Main Flow:
+1. User navigates to the “Dashboard” or “Progress” section.
+2. The system displays a visual representation of the task completion progress (e.g., pie chart or progress bar).
+3. User can see the number of completed tasks versus total tasks.
+4. User can click on specific tasks for more details.
+
+---
+
+## Use Case 6: Receive Performance Suggestions
+
+- **Actor:** Logged-in User  
+- **Precondition:** User must have been using the application for a certain period.  
+- **Postcondition:** User receives personalized suggestions for improving productivity.
+
+### Main Flow:
+1. User logs into the application.
+2. The system analyzes the user’s task completion patterns.
+3. The system generates personalized performance improvement suggestions.
+4. Suggestions are displayed on the user’s dashboard.
+5. User can review the suggestions and choose to implement them.
+![Xtime App Use Case](xtimefig.png)
+
