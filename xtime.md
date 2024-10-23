@@ -49,6 +49,85 @@ The app aims to help users improve time management and boost productivity by int
 6. **Analyzing Energy Levels**: It may suggest tasks to you according to your energy level and your time. For example, if you are in good energy, it suggests heavy tasks, and if you are tired, it suggests light tasks.
 7. **Challenge Achievement with Friends**: Enter challenges with your friends; whoever wins gets a symbolic reward within the application or motivation with special points.
 
+## Problems the App Solves
+1. **Wasted Time and Lack of Focus**: Helps users identify and organize their most important tasks.
+2. **Distractions and Poor Discipline**: Provides smart reminders to keep users on track to complete tasks on time.
+3. **Poor Priority Management**: Uses AI to suggest priority adjustments based on predefined goals.
+4. **Burnout from Multitasking**: Offers solutions to balance work and rest by scheduling tasks effectively.
+
+## Proposed Features
+- **Task Prioritization**: Smart suggestions for task priority based on deadlines and user goals.
+- **Time Tracking & Analysis**: Monitors how time is spent to generate productivity reports.
+- **Focus Mode**: Blocks distractions and ensures focused work sessions.
+- **AI-powered Suggestions**: Offers recommendations on how to improve time use based on past patterns.
+
+### Comparison to Other Applications
+
+#### 1. Todoist:
+**Overview**: Todoist is a task management app that allows users to create tasks, set deadlines, and organize them into projects. It helps users stay on top of their tasks with reminders, labels, and priority settings.
+
+**Key Features**:
+- Task organization through labels, projects, and filters.
+- Recurring tasks and deadlines.
+- Integration with various productivity tools (Google Calendar, Slack, etc.).
+- Productivity tracking via “Karma,” a point-based system that rewards task completion.
+
+**Comparison to Xtime**:
+- **Similarities**: Both apps help users organize tasks and improve productivity. Both offer reminders and prioritize tasks.
+- **Differences**: The proposed app goes beyond basic task management by using AI to analyze time patterns and suggest adjustments to improve performance. Todoist focuses on task organization, while the new app would focus on time optimization and personalized suggestions.
+
+#### 2. Trello:
+**Overview**: Trello is a project management tool based on the Kanban method, using boards, lists, and cards to visually organize tasks. It is highly customizable for different types of workflows and team collaboration.
+
+**Key Features**:
+- Visual task management using drag-and-drop cards.
+- Task assignment and tracking for team projects.
+- Integration with tools like Slack, Google Drive, and Jira.
+- Flexible workflows with custom boards and templates.
+
+**Comparison to Xtime**:
+- **Similarities**: Both Trello and Xtime aim to help users manage tasks and stay organized.
+- **Differences**: Trello is focused on project management and teamwork, whereas Xtime is more focused on individual productivity and optimizing personal time management through AI-based insights. Xtime would also include focus modes and burnout prevention, which Trello lacks.
+
+#### 3. RescueTime:
+**Overview**: RescueTime is a time-tracking app that analyzes how users spend their time across different apps and websites. It gives detailed reports on productivity and helps users understand where they waste time.
+
+**Key Features**:
+- Automatic tracking of app and website usage.
+- Productivity reports based on time spent on different activities.
+- Focus sessions to block distractions.
+- Daily productivity goals and alerts.
+
+**Comparison to Xtime**:
+- **Similarities**: Both apps focus on analyzing time use and providing insights to boost productivity.
+- **Differences**: RescueTime mainly tracks time spent on apps and websites, while the proposed app would integrate AI to not only track time but also suggest task prioritization and give productivity advice. Additionally, the proposed app would focus on balancing task workloads and reducing burnout, areas where RescueTime does not provide direct intervention.
+
+### Summary of Differences
+- Todoist is more task-oriented without time-tracking or AI insights.
+- Trello is designed for project management, particularly team-based workflows, while the proposed app is more focused on individual time optimization.
+- RescueTime focuses heavily on tracking how time is spent online, whereas the proposed app would focus on intelligent prioritization and personalized feedback based on time use patterns.
+
+The unique value of the proposed app lies in the AI-driven suggestions and features like burnout prevention and balanced task workloads, which most competitors don’t fully address.
+
+### Proposed Developments Required Through the Questionnaire
+1. **Integration with Popular Calendars**: Integrate the app with calendars like Google Calendar and Apple Calendar to make syncing appointments and tasks easier.
+2. **Smart Reminder System**: Offer customizable reminders based on location or the optimal time (e.g., "Remind me to make the call when I reach the office").
+3. **Time Usage Analysis**: Add a feature that analyzes how time is spent throughout the day or week, helping users optimize their time distribution.
+4. **Time Management Modes**: Provide modes such as "Focus Mode," which silences notifications, or "Meeting Mode," which allows scheduling free blocks of time.
+5. **Recurring Tasks**: Allow users to add and flexibly manage recurring tasks.
+6. **Interactive Dashboard**: Design a visual, interactive dashboard that displays time usage, completed tasks, and upcoming appointments clearly.
+7. **Collaboration Feature**: Allow users to share schedules or tasks with others, especially useful for teamwork.
+8. **Automatic Suggestions**: Add a feature that suggests the best times to complete tasks based on the user's schedule and past work patterns.
+9. **Emergency Mode**: Implement a system to handle unexpected appointments or tasks, with recommendations on how to reorganize the schedule.
+10. **Productivity Boost**: Offer virtual challenges or rewards for users who meet specific goals, encouraging them to stick to their time management plan.
+
+### Opinion Poll and Results
+Based on the opinion poll, I found that the duration of using the program is short, so other features must be added that attract the user and enhance their enthusiasm to accomplish their tasks. The user must also be reminded to enter the program and motivated to accomplish tasks quickly and in an organized manner. As for evaluating the satisfaction rate, I found that it is neutral, so it is necessary to take users' notes about what is related to their satisfaction and to know the defect or problem they have.
+
+## Summary
+Xtime is not just an application to manage your tasks and achievements, but rather relies on artificial intelligence to analyze time usage patterns and provide recommendations to improve productivity. The application provides features such as time tracking, focus modes, and prioritization based on goals, in addition to providing solutions to avoid fatigue resulting from multitasking. Compared to other applications such as Todoist, Trello, and RescueTime, Xtime focuses on improving the user's personal time through artificial intelligence technologies, while providing advantages such as preventing distractions and offering motivating challenges for users.
+
+
 ## Summary
 Xtime allows users to customize their daily tasks, define them, and set times to remind them. It tracks your progress towards achieving your goals and provides reports on your performance. Using artificial intelligence, the application solves how you spend your time with various tips for your productivity. It also allows its definition and integrates with other applications such as the calendar. You can divide time, set long-term goals, and challenge your friends to achieve the best results.
 
