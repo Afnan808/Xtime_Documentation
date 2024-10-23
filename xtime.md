@@ -243,3 +243,8 @@ The app aims to help users improve time management and boost productivity by int
 
 #### Monitoring and Analytics:
 - Use Google Analytics or similar tools to monitor application performance and user engagement.
+## The Xtime App Interface
+
+The Xtime app interface displays an organized list of daily tasks with circles to mark completed tasks with a checkmark and a set time for each task. This simple design allows the user to manage their day easily and motivates them to complete tasks on time.
+
+![Xtime App Interface](xtime.png)
