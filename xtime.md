@@ -131,3 +131,115 @@ Xtime is not just an application to manage your tasks and achievements, but rath
 ## Summary
 Xtime allows users to customize their daily tasks, define them, and set times to remind them. It tracks your progress towards achieving your goals and provides reports on your performance. Using artificial intelligence, the application solves how you spend your time with various tips for your productivity. It also allows its definition and integrates with other applications such as the calendar. You can divide time, set long-term goals, and challenge your friends to achieve the best results.
 
+# Interdiction
+
+One of the most important factors is that we improve time management and increase productivity, thus achieving better personal success.
+
+Xtime application provides smart solutions to enhance the strong and optimal use of time through its integration with artificial intelligence. The aim of the application is to organize current tasks and provide suggestions for improving performance by analyzing the user’s time usage patterns. In this report, we will review the details of the application, including technical specifications, requirements, and technologies used.
+
+## Description
+
+The app aims to help users improve time management and boost productivity by integrating artificial intelligence to organize daily tasks and provide performance improvement suggestions. It tracks the user's progress toward personal and professional goals and analyzes time usage patterns to give personalized tips.
+
+## Database
+
+### Choice: Firebase Firestore
+
+#### Key Points:
+
+- **Ease of Use:**  
+  Firebase Firestore is designed to be easy to use, making it an ideal choice. It doesn’t require a complicated setup, allowing us to quickly start creating, managing, and working with databases.
+
+- **Real-time Synchronization:**  
+  Firestore supports real-time updates, meaning data is automatically updated on all connected devices. This allows users to see changes instantly, making collaboration and task management smoother.
+
+- **Flexible Storage:**  
+  Firestore provides unstructured storage, which means data can be stored flexibly. You can manage tasks and reports easily without the need for a strict data structure, making the application adaptable to changing needs.
+
+- **Integration:**  
+  Firestore supports smooth integration with various tools and applications, such as Google Calendar. This makes it easy to link users' tasks to important appointments, enhancing the application's effectiveness.
+
+## Server
+
+### Choice: Firebase
+
+#### Key Points:
+
+- **Fully Managed Server Service:**  
+  Firebase is a great choice as a fully managed server. It eliminates the need to manage infrastructure or servers, saving time and effort while allowing the focus to remain on developing the application.
+
+- **Easy Authentication and Storage:**  
+  Firebase offers features such as authentication and storage that are easy to implement. Various login mechanisms (e.g., Google or Facebook) can be provided without the need to develop them from scratch.
+
+## Programming Language
+
+### Choice: JavaScript (with Node.js)
+
+#### Key Points:
+
+- **Works Well With Firebase:**  
+  JavaScript is the primary language used in web application development, and Node.js allows you to run JavaScript on the server. This makes it a great choice for applications like Xtime that require seamless interaction between the front-end and back-end.
+
+- **Suitable for Web Applications:**  
+  JavaScript is powerful for building interactive user interfaces and experiences, making it ideal for features like task management, reminders, and performance analysis.
+
+## Specifications and Requirements
+
+### Device Requirements:
+
+#### Server Requirements:
+1. **Processor:** Quad-core CPU (e.g., Intel i5 or equivalent).  
+2. **RAM:** At least 8 GB (16 GB recommended for better performance).  
+3. **Storage:** SSD with at least 256 GB capacity (depends on data size).  
+4. **Network:** High-speed internet connection with at least 10 Mbps upload/download speed.
+
+#### Customer Requirements:
+- **Device:** Desktop, laptop, or mobile device.  
+- **Processor:** Dual-core CPU or higher.  
+- **RAM:** At least 4 GB (8 GB recommended).  
+- **Storage:** Minimum 100 MB available.
+
+### Software Requirements:
+
+#### Server:
+- **Operating System:**  
+  Linux-based OS (e.g., Ubuntu or CentOS) is preferred for stability and performance.  
+  Windows Server can be used if required.
+  
+#### Client:
+- **Operating Systems:**  
+  Windows 10 or later, macOS, or a recent Linux version.  
+  Mobile: iOS 12.0 or later, Android 8.0 or later.
+
+#### Web Server:
+- Node.js to run JavaScript on the server side.
+
+#### Database:
+- Firebase Firestore (cloud-based, no local installation required).
+
+### Development Tools:
+- Code editor/IDE (e.g., Visual Studio Code, WebStorm).  
+- Version control system (e.g., Git).
+
+### Dependencies:
+
+- **Node.js Packages:**  
+  Express.js for web server functions.  
+  Firebase Admin SDK for server-side interactions with Firestore.  
+  Other necessary libraries, such as for authentication and UI frameworks.
+
+### Browsers:
+- Latest versions of Google Chrome, Mozilla Firefox, Safari (macOS/iOS), and Microsoft Edge.
+
+### Additional Requirements:
+
+#### Security:
+- SSL certificate for secure HTTPS data transfer.  
+- Implement authentication mechanisms (e.g., Firebase authentication).
+
+#### Backup and Recovery:
+- Regular Firestore data backups.  
+- Recovery plan for data loss.
+
+#### Monitoring and Analytics:
+- Use Google Analytics or similar tools to monitor application performance and user engagement.
